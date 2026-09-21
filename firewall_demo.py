@@ -33,7 +33,7 @@ def resolve(hostname):
         return f"Couldn't resolve {hostname}: {e}"
 
 def Uques():
-    user_prompt = input(green("Would you like to make another query? (y/n): "))
+    user_prompt = input(green("Would you like to make another query? (y/n): ")).strip().lower()
     if user_prompt == "y":
         os.system('cls' if os.name == 'nt' else 'clear')
         user_search()
