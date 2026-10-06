@@ -6,10 +6,24 @@ Requirements
 * A text editor (such as vim or nano) should be installed/preinstalled in your terminal
   
 Installation
+
+```bash
 * To install, simply type "git clone https://github.com/RavenTheBird789/Firewall-Demo" in your terminals command line
+```
 
 Execution
-* To run the program, simply type "python3 firewall_demo.py" in your terminals command line (Note: a shortcut can be created in a terminal session using the bash alias command. Ex: alias fw="python3 firewall_demo.py")
+
+To run
+
+```bash
+python3 firewall_demo.py
+```
+
+Optional shortcut
+
+```bash
+alias fw="python3 firewall_demo.py"
+```
 
 Additional Information:
 * The [blocked_list.txt](blocked_list.txt) file contains a list of websites that will be blocked by the firewall and can be modified at anytime by the user to include or remove certain hostnames
